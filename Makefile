@@ -4,6 +4,7 @@ CC = $(CROSS_COMPILE)gcc
 LD = $(CROSS_COMPILE)ld
 
 CFLAGS = -std=c99 -O2 -march=mips32r2 -Wall
+LDFLAGS = -s
 
 all: yamon.cgi phy-config.srec
 
